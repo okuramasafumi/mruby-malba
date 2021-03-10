@@ -1,5 +1,5 @@
 name: mruby-malba
-description: Malba class
+description: Malba is a JSON serializer for mruby
 author: OKURA Masafumi
 website: https://github.com/okuramasafumi/mruby-malba
 protocol: git
