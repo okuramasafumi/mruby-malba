@@ -1,5 +1,9 @@
-# mruby-malba   [![Build Status](https://travis-ci.org/okuramasafumi/mruby-malba.svg?branch=master)](https://travis-ci.org/okuramasafumi/mruby-malba)
-Malba class
+[![CI](https://github.com/okuramasafumi/mruby-malba/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/okuramasafumi/mruby-malba/actions/workflows/main.yml)
+
+# mruby-malba
+
+Malba is a JSON serializer for mruby.
+
 ## install by mrbgems
 - add conf.gem line to `build_config.rb`
 
@@ -10,16 +14,6 @@ MRuby::Build.new do |conf|
 
     conf.gem :github => 'okuramasafumi/mruby-malba'
 end
-```
-## example
-```ruby
-p Malba.hi
-#=> "hi!!"
-t = Malba.new "hello"
-p t.hello
-#=> "hello"
-p t.bye
-#=> "hello bye"
 ```
 
 ## License
