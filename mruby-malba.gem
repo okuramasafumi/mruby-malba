@@ -1,0 +1,7 @@
+name: mruby-malba
+description: Malba class
+author: OKURA Masafumi
+website: https://github.com/okuramasafumi/mruby-malba
+protocol: git
+repository: https://github.com/okuramasafumi/mruby-malba.git
+license: MIT
